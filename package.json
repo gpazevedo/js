@@ -1,12 +1,12 @@
 {
-  "name": "agora",
+  "name": "JS starter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "dev": "parcel scr/index.html",
     "build": "parcel build scr/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --config ./jest.config.json --watchAll",
     "test:coverage": "jest --config ./jest.config.json --coverage || open coverage/lcov-report/index.html",
     "clean": "rm-rf .cache dist"
   },
@@ -23,6 +23,9 @@
   },
   "browserslist": [
     "last 2 Firefox versions",
-    "last 2 Chrome versions"
+    "last 2 Chrome versions",
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
   ]
 }
