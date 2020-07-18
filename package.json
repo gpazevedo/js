@@ -1,14 +1,14 @@
 {
-  "name": "JS starter",
+  "name": "js-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "JS Project",
   "main": "index.html",
   "scripts": {
-    "dev": "parcel scr/index.html",
+    "dev": "parcel src/index.html",
     "build": "parcel build scr/index.html",
     "test": "jest --config ./jest.config.json --watchAll",
     "test:coverage": "jest --config ./jest.config.json --coverage || open coverage/lcov-report/index.html",
-    "clean": "rm-rf .cache dist"
+    "clean": "rm -rf .cache dist"
   },
   "keywords": [],
   "author": "",
