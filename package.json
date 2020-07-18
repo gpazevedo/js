@@ -1,0 +1,28 @@
+{
+  "name": "agora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel scr/index.html",
+    "build": "parcel build scr/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:coverage": "jest --config ./jest.config.json --coverage || open coverage/lcov-report/index.html",
+    "clean": "rm-rf .cache dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jest": "^26.1.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5"
+  },
+  "browserslist": [
+    "last 2 Firefox versions",
+    "last 2 Chrome versions"
+  ]
+}
