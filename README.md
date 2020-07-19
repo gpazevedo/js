@@ -1,4 +1,4 @@
-# Development Setup
+# JavaScript Initial Program Configuration
 
 ## VSCode plugins
 
@@ -16,13 +16,13 @@ A better development experience can be achieved with the following vscode plug-i
 
 ## Install dependencies
 
-- **_\$ yarn_**
+- **_\$ git clone https://github.com/gpazevedo/js.git folder_** copy the repository for a new folder and init a git there
+- **_\$ yarn install_** install the dependencies
 
-## Development
+## Development Setup
 
-- **_\$ yarn dev_** # builds and runs in development mode
-- **_\$ yarn build_** # builds for production
-- **_\$ yarn test_** # TDD with all Unit Tests
-- **_\$ yarn test file_** # TDD Unit testing
-- **_\$ yarn test:coverage_** # check test coverage
-- **_\$ yarn clean_** # clean temporary files
+- `$ yarn dev # builds and runs in development mode`
+- `$ yarn build_ # builds for production`
+- `$ yarn test file # TDD with all Unit Tests`
+- `$ yarn test # TDD with all Unit Tests`
+- `$ yarn test:coverage # TDD with all Unit Tests`
