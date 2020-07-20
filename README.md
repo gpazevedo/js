@@ -8,6 +8,7 @@ This is an initial configuration for a JavaScript project.
 
 - \$ `git clone https://github.com/gpazevedo/js.git newfolder` copy the repository for a new folder and init a git there
 - \$ `yarn install` install the dependencies
+- \$ `git init` initiate the version control
 
 ### Workflow
 
