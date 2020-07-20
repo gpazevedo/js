@@ -2,17 +2,16 @@
   "name": "js-starter",
   "version": "1.0.0",
   "description": "JS Project",
-  "main": "index.html",
+  "main": "src/index.js",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "build": "parcel build src/index.js",
     "test": "jest --config ./jest.config.json --watchAll",
-    "test:coverage": "jest --config ./jest.config.json --coverage || open coverage/lcov-report/index.html",
+    "test:coverage": "jest --config ./jest.config.json --coverage || open coverage/lcov-report/index.js",
     "clean": "rm -rf .cache dist"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Gustavo Peixoto de Azevedo",
+  "license": "UNLICENSED",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -28,8 +27,7 @@
   "browserslist": [
     "last 2 Firefox versions",
     "last 2 Chrome versions",
-    "> 1%",
-    "last 2 versions",
+    "> 2%",
     "not ie <= 8"
   ]
 }

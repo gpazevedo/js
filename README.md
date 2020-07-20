@@ -6,16 +6,16 @@ This is an initial configuration for a JavaScript project.
 
 ### Dependencies
 
-- _\$ git clone https://github.com/gpazevedo/js.git folder_ copy the repository for a new folder and init a git there
-- _\$ yarn install_ install the dependencies
+- \$ `git clone https://github.com/gpazevedo/js.git newfolder` copy the repository for a new folder and init a git there
+- \$ `yarn install` install the dependencies
 
 ### Workflow
 
-- `$ yarn dev # builds and runs in development mode`
-- `$ yarn build # builds for production`
-- `$ yarn test file # TDD with all Unit Tests`
-- `$ yarn test # TDD with all Unit Tests`
-- `$ yarn test:coverage # TDD with all Unit Tests`
+- \$ `yarn test filetobetested # TDD with Unit Tests`
+- \$ `yarn test # TDD with all Unit Tests`
+- \$ `yarn test:coverage # TDD with all Unit Tests`
+- \$ `yarn build # builds for production`
+- \$ `yarn build && node dist/index.js # Runs the program`
 
 ### VSCode plugins
 

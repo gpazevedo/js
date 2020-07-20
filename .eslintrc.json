@@ -12,5 +12,9 @@
     "es6": true,
     "browser": true,
     "node": true
+  },
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
   }
 }
